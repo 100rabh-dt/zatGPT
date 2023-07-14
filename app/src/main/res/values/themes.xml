@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ZatGPT" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+         Status bar color.
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:navigationBarColor">#0B0132</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Theme.ZatGPT.Splash" parent="Theme.ZatGPT">
+        <!-- Status bar color for splash activity -->
+        <item name="android:statusBarColor">#000000</item>
+        <!-- Navigation bar color for splash activity -->
+        <item name="android:navigationBarColor">#000000</item>
+    </style>
+
+</resources>
